@@ -1,0 +1,52 @@
+﻿html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  height: 100vh;
+}
+
+footer {
+    padding-block: 2rem;
+    margin-top: auto;
+}
+
+.main-logo {
+    aspect-ratio: 1;
+    height: 64px;
+}
+
+/* Second section */
+#call-to-buy-section {
+    width: 100%;
+    position: relative;
+}
+
+#call-to-buy-section__image {
+    object-fit: contain;
+    width: 100%;
+    border-radius: 1rem;
+    box-shadow: rgba(255, 255, 255, 0.1) 0 0 2px 1px;
+}
+
+#call-to-buy-section__content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
